@@ -1,0 +1,34 @@
+﻿Mardi 		11/09/2018:
+	-Recherche d'un sujet de projet
+
+Mercredi 	12/09/2018:
+	-Recherche d'un sujet de projet
+
+Mercredi	19/09/2018:
+	-Recherche d'un sujet de projet
+
+Jeudi		20/09/2018:
+	-Recherche d'un sujet de projet
+
+Vendredi	21/09/2018:
+	-Recherche d'un sujet de projet
+
+Lundi		24/09/2018:
+	-Creation d'un git
+	-Creation du document d'expression du besoin
+
+Mardi 		25/09/2018
+	-Conclusion du document d'expression du besoin
+	-Approfondissement des connaissances d'UML
+
+Jeudi		27/09/2018
+	-Creation d'un diagramme de cas d'utilisation
+
+Lundi		01/10/2018
+	-Recherches sur le fonctionnement d'un plugin WordPress
+
+Mardi 		02/10/2018
+	-Recherches sur le fonctionnement d'un plugin WordPress
+
+Jeudi		04/10/2018
+	-Réflexion sur le cahier des charges

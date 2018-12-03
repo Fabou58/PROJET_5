@@ -1,0 +1,20 @@
+Wordpress :		-> Plus grande communauté au monde
+			-> Miliers de plug-ins
+			-> Applications smartphone
+			-> Gratuit et mis à jour régulièrement
+
+Drupal :		-> Plus accès côté "blog" donc utile pour les sites gallerie, photos, etc.
+			-> Grande communauté
+			-> Mis à jour régulièrement
+
+Joomla :		-> Grande communauté
+			-> Milliers de plug-ins
+			-> Interface simple d'utilisation
+
+ExpressionEngine :	-> Licence annuelle de 300 dollars
+			-> Support disponible
+			-> Centaines de plug-ins
+
+Notre choix s'est porté sur Wordpress. Nous sommes novices dans l'utilisation de CMS et Wordpresse comporte 
+la plus grande communauté (pour le CMS) au monde. De plus il contient déjà des milliers de plug-ins, des 
+applications pour smartphone (responsive design). Il est gratuit, mis à jour régulièrement.
