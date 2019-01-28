@@ -86,3 +86,37 @@ Vendredi	30/11/2018
 
 Lundi		03/12/2018
 	-
+
+Lundi		28/01/2019
+	- Recherche du format de sortie de magic plan
+	- Création du document répertoriant les logiciels et technologies utilisées/à utiliser
+	- Réorganisation GitHub
+	- Mise au point (tâches à réaliser, tâches réalisées)
+	- Recherches exploitation format dxf
+
+Mardi		29/01/2019
+	-
+
+Mercredi	30/01/2019
+	-
+
+Jeudi		31/01/2019
+	-
+
+Vendredi	01/02/2019
+	-
+
+Lundi		04/02/2019
+	-
+
+Mardi		05/02/2019
+	-
+
+Mercredi	06/02/2019
+	-
+
+Jeudi		07/02/2019
+	-
+
+Vendredi	08/02/2019
+	-

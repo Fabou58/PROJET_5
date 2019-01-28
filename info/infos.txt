@@ -3,3 +3,7 @@
 
 -Il existe un autre type de fichier pour échanger des plans 3D, le format .stp
 
+- Magicplan permet l'export des plans vers des fichiers (images vectorielles, png, jpg ou le format dxf)
+
+- On ne sait pas encore comment exploiter ce format
+
