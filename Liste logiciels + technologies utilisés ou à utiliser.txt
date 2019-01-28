@@ -1,5 +1,0 @@
-Communication: Discord
-Partage: GitHub
-Planification tâches: todoist
-UML: violet UML
-Documents: Suite libre office/Suite office
