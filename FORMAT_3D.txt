@@ -1,0 +1,5 @@
+-Le format .dxf est un format d'échange standars de plans. On utilise ce type de fichier pour
+échanger des plans 2D.
+
+-Il existe un autre type de fichier pour échanger des plans 3D, le format .stp
+
