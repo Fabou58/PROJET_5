@@ -9,6 +9,8 @@ LOGICIELS:
 - Création de plans:		Magicplan
 
 TECHNOLOGIES:
-- Moteur de rendu: 		WebGL
-- Bibliothèque JavaScript:	BabylonJS
 - CMS:				WordPress
+- langage (CMS):		PHP
+- Moteur de rendu: 		WebGL
+- langages (rendu3D):		Javascript
+- Bibliothèque JavaScript:	BabylonJS
