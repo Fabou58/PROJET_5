@@ -1,0 +1,35 @@
+SEMESTRE 5: 	• 65 séances
+		- 11 séances 	(septembre)
+		- 12 séances 	(octobre)
+		- 10 séances 	(novembre)
+		- 10 séances 	(décembre)
+		- 18 séances 	(janvier)
+		- 4 séances 	(février)
+SEMESTRE6: 	• 36 séances
+		- 6 séances 	(février)
+		- 20 séances 	(mars)
+		- 10 séances 	(avril)
+TOTAL: 		• 101 séances
+
+TACHES:
+- Rechercher projet
+- Organiser et planifier projet
+- Créer document d'expression du besoin
+- Reorganiser et planifier le projet
+- Etudier UML
+- Créer diagrammes de cas d'utilisation (créateur, architecte et visiteur)
+- Créer diagrammes d'activités (création visite, prise plan, visite)
+- Créer cahier des charges
+- Etudier et comparer CMS (+choisir)
+- Etudier et comparer technologies 3D web (+choisir)
+- Créer maquette 3D test
+- (zone magicplan)???
+- Créer maquettes graphiques
+- Etudier WordPress
+- Créer un plugin test WordPress
+- Créer site web test
+- Rédiger rapport semestre 5
+- Développer fonctionnalités
+- Mettre en commun parties développées
+- Tester et débugger
+- Rédiger rapport semestre 6
