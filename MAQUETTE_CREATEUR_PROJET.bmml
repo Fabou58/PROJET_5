@@ -1,0 +1,40 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="644" measuredH="572" mockupW="600" mockupH="550">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="44" y="22" w="600" h="550" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>24</bottomheight>
+        <close>true</close>
+        <dragger>true</dragger>
+        <maximizeRestore>true</maximizeRestore>
+        <minimize>true</minimize>
+        <text>Cr%E9ateur</text>
+        <topheight>26</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="532" y="503" w="97" h="33" measuredW="90" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <icon>chevron-left%7Csmall</icon>
+        <menuIcon>false</menuIcon>
+        <state>up</state>
+        <text>Retour</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="226" y="281" w="97" h="33" measuredW="94" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <menuIcon>false</menuIcon>
+        <state>up</state>
+        <text>Cr%E9er%20visite</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Button" x="342" y="281" w="123" h="33" measuredW="123" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <menuIcon>false</menuIcon>
+        <state>up</state>
+        <text>R%E9cup%E9rer%20visite</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
