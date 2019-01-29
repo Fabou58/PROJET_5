@@ -12,24 +12,24 @@ SEMESTRE6: 	• 36 séances
 TOTAL: 		• 101 séances
 
 TACHES:
-- Rechercher projet
-- Organiser et planifier projet
-- Créer document d'expression du besoin
-- Reorganiser et planifier le projet
-- Etudier UML
-- Créer diagrammes de cas d'utilisation (créateur, architecte et visiteur)
-- Créer diagrammes d'activités (création visite, prise plan, visite)
-- Créer cahier des charges
-- Etudier et comparer CMS (+choisir)
-- Etudier et comparer technologies 3D web (+choisir)
-- Créer maquette 3D test
-- (zone magicplan)???
-- Créer maquettes graphiques
-- Etudier WordPress
-- Créer un plugin test WordPress
-- Créer site web test
-- Rédiger rapport semestre 5
-- Développer fonctionnalités
-- Mettre en commun parties développées
-- Tester et débugger
-- Rédiger rapport semestre 6
+- Rechercher projet								4 séances
+- Organiser et planifier projet							8 séances					
+- Créer document d'expression du besoin						1 séances
+- Reorganiser et planifier le projet						4 séances
+- Etudier UML									5 séances
+- Créer diagrammes de cas d'utilisation (créateur, architecte et visiteur)	3 séances
+- Créer diagrammes d'activités (création visite, prise plan, visite)		4 séances
+- Créer cahier des charges							4 séances
+- Etudier et comparer CMS (+choisir)						3 séances
+- Etudier et comparer technologies 3D web (+choisir)				6 séances
+- Créer maquette 3D test							2 séances
+- Créer et tester plan								1 séance
+- Créer maquettes graphiques							3 séances
+- Etudier WordPress								8 séances
+- Créer un plugin test WordPress						2 séances
+- Créer site web test								2 séances
+- Rédiger rapport semestre 5							5 séances
+- Développer fonctionnalités							16 séances
+- Mettre en commun parties développées						7 séances
+- Tester et débugger								8 séances
+- Rédiger rapport semestre 6							4 séances
