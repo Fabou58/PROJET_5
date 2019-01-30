@@ -1,0 +1,38 @@
+ANALYSE
+- Rechercher projet				Alex / Christopher
+- Créer GANTT prévisionnel			Fabien
+- Répartir les tâches				Alex / Fabien
+- Créer document d'expression du besoin		Alex / Christopher
+- Etudier UML					Alex / Fabien
+- Créer diagrammes de cas d'utilisation		Alex / Fabien
+- Créer diagrammes d'activités			Alex / Fabien
+- Créer cahier des charges			Alex / Fabien
+CONCEPTION
+- Créer MCD/MPD					Alex / Fabien
+- Créer BDD					Fabien
+- Comparatif CMS				Alex
+- Comparatif technologies 3D web		Alex
+- Créer maquettes graphiques (mockup)		Fabien
+- Créer modèle 3D test				Alex
+- Créer maquette 3D test			Alex
+- Créer plugin test WordPress			Fabien
+- Créer site web test				Alex
+SOUTENANCE PARTIE 1
+- Créer GANTT réalisé				Fabien
+- Créer rapport de projet			Fabien
+- Réaliser diaporama				Alex
+- Préparer texte				Alex / Fabien
+DEVELOPPEMENT
+- Menu principal
+- Deplacements visite
+- Création meuble
+- Placement meuble
+- Modification meuble
+- Suppression meuble
+- Changement position soleil
+- Creation visite
+- Modifier visite
+- Supprimer visite
+- Street view
+TESTS
+- Debugs et tests				Alex / Fabien
