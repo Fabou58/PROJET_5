@@ -11,7 +11,7 @@ LOGICIELS:
 
 TECHNOLOGIES:
 - CMS:				WordPress
-- langage (CMS):		PHP
+- langage (CMS):		PHP/HTML
 - Moteur de rendu: 		WebGL
 - langages (rendu3D):		Javascript
 - Bibliothèque JavaScript:	BabylonJS
