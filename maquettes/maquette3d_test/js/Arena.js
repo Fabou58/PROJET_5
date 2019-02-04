@@ -49,23 +49,23 @@ Arena = function(game) {
 
     var materialGround = new BABYLON.StandardMaterial("wallTexture", scene);
 
-    materialGround.diffuseTexture = new BABYLON.Texture("assets/images/tile.jpg", scene);
+  //  materialGround.diffuseTexture = new BABYLON.Texture("assets/images/tile.jpg", scene);
 
-    materialGround.diffuseTexture.uScale = 8.0;
+   // materialGround.diffuseTexture.uScale = 8.0;
 
-    materialGround.diffuseTexture.vScale = 8.0;
+   // materialGround.diffuseTexture.vScale = 8.0;
 
 
     // Material pour les objets
 
-    var materialWall = new BABYLON.StandardMaterial("groundTexture", scene);
+    //var materialWall = new BABYLON.StandardMaterial("groundTexture", scene);
 
-    materialWall.diffuseTexture = new BABYLON.Texture("assets/images/tile.jpg", scene);
+  //  materialWall.diffuseTexture = new BABYLON.Texture("assets/images/tile.jpg", scene);
 
 
     var boxArena = BABYLON.Mesh.CreateBox("box1", 100, scene, false, BABYLON.Mesh.BACKSIDE);
 
-    boxArena.material = materialGround;
+    //boxArena.material = materialGround;
 
     boxArena.position.y = 50 * 0.3;
 
@@ -94,7 +94,7 @@ Arena = function(game) {
 
             mainCylinder.position = new BABYLON.Vector3(-sizeArena/2,30/2,-20 + (40 * i));
 
-            mainCylinder.material = materialWall;
+            //mainCylinder.material = materialWall;
 
             columns[i].push(mainCylinder);
 
