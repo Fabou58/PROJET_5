@@ -8,6 +8,7 @@ LOGICIELS:
 - Developpement:		Notepad++ / Visual code
 - Création de plans:		Magicplan
 - Visionnage plans:		ABViewer
+- Création modèles 3d		Blender
 
 TECHNOLOGIES:
 - CMS:				WordPress
