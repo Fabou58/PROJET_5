@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  lun. 01 avr. 2019 à 11:39
--- Version du serveur :  5.7.24
--- Version de PHP :  7.2.14
+-- Généré le :  mer. 03 avr. 2019 à 09:29
+-- Version du serveur :  5.7.23
+-- Version de PHP :  7.2.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -36,7 +36,19 @@ CREATE TABLE IF NOT EXISTS `adresse` (
   `code_postal` int(11) NOT NULL,
   `ville` varchar(50) NOT NULL,
   PRIMARY KEY (`id_adresse`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `adresse`
+--
+
+INSERT INTO `adresse` (`id_adresse`, `num_rue`, `nom_rue`, `code_postal`, `ville`) VALUES
+(1, 27, 'rue des Loges', 58240, 'Luthenay-Uxeloup'),
+(2, 48, 'avenue Jean-Michel Doudoux', 58000, 'Nevers'),
+(3, 23, 'avenue Jean-Michel Doudoux', 58000, 'Nevers'),
+(4, 1, 'chemin des quilles', 58140, 'Saint-Martin-du-Puy'),
+(5, 33, 'Avenue des champs Elysées', 75000, 'Paris'),
+(6, 7, 'Avenue des champs Elysées', 75000, 'Paris');
 
 -- --------------------------------------------------------
 
@@ -111,9 +123,22 @@ CREATE TABLE IF NOT EXISTS `type` (
 DROP TABLE IF EXISTS `type_bien`;
 CREATE TABLE IF NOT EXISTS `type_bien` (
   `id_type_bien` int(11) NOT NULL AUTO_INCREMENT,
-  `type_bien` varchar(50) NOT NULL,
+  `libelle` varchar(50) NOT NULL,
   PRIMARY KEY (`id_type_bien`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `type_bien`
+--
+
+INSERT INTO `type_bien` (`id_type_bien`, `libelle`) VALUES
+(1, 'Maison'),
+(2, 'Appartement'),
+(3, 'Résidence'),
+(4, 'Villa'),
+(5, 'Château'),
+(6, 'Cabanon'),
+(7, 'Manoir');
 
 -- --------------------------------------------------------
 
@@ -124,9 +149,17 @@ CREATE TABLE IF NOT EXISTS `type_bien` (
 DROP TABLE IF EXISTS `type_vente`;
 CREATE TABLE IF NOT EXISTS `type_vente` (
   `id_type_vente` int(11) NOT NULL AUTO_INCREMENT,
-  `type_vente` varchar(50) NOT NULL,
+  `libelle` varchar(50) NOT NULL,
   PRIMARY KEY (`id_type_vente`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `type_vente`
+--
+
+INSERT INTO `type_vente` (`id_type_vente`, `libelle`) VALUES
+(1, 'Achat'),
+(2, 'Location');
 
 -- --------------------------------------------------------
 
@@ -138,11 +171,11 @@ DROP TABLE IF EXISTS `visite`;
 CREATE TABLE IF NOT EXISTS `visite` (
   `id_visite` int(11) NOT NULL AUTO_INCREMENT,
   `libelle` varchar(50) NOT NULL,
-  `description` blob NOT NULL,
+  `description` mediumtext NOT NULL,
   `prix` int(11) NOT NULL,
   `surface` float NOT NULL,
   `etat` tinyint(1) NOT NULL,
-  `agence` varchar(6) NOT NULL,
+  `agence` varchar(100) NOT NULL,
   `id_adresse` int(11) NOT NULL,
   `id_type_vente` int(11) DEFAULT NULL,
   `id_type_bien` int(11) DEFAULT NULL,
@@ -150,7 +183,17 @@ CREATE TABLE IF NOT EXISTS `visite` (
   KEY `visite_adresse7_FK` (`id_adresse`),
   KEY `visite_type_vente0_FK` (`id_type_vente`),
   KEY `visite_type_bien1_FK` (`id_type_bien`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `visite`
+--
+
+INSERT INTO `visite` (`id_visite`, `libelle`, `description`, `prix`, `surface`, `etat`, `agence`, `id_adresse`, `id_type_vente`, `id_type_bien`) VALUES
+(3, 'Maison de campagne', 'Grande maison de campagne. Grand jardin avec garage et cabane. Grands espaces exterieurs prÃ¨s d\'une forÃªt. 4 chambres / salle de bain double vasque avec douche Ã  l\'italienne. Cuisine ouverte sur la salle de vie. 2 Chambres avec dressing.', 156000, 128, 0, 'Le Bois', 1, 1, 1),
+(4, 'Cabanon de campagne', 'Cabanon avec Ã©tang. IntÃ©ressant pour la chasse et activitÃ©s en pleine nature.', 17500, 38, 0, 'Chassou', 4, 1, 6),
+(5, 'Appartement de luxe', 'Appartement de luxe aux champs ElysÃ©es. Grande piÃ¨ce de vie, 3 salles d\'eau et 4 chambres. IdÃ©al pour les gros riches. ', 14200, 154, 0, 'Knk', 6, 2, 2),
+(6, 'Appartement centre ville', 'Appartement en centre-ville, proche des loisirs et activitÃ©s de la ville. 2 grandes chambres, 2 salles de bain, cuisine ouverte.', 780, 112, 0, 'JMD', 3, 2, 2);
 
 -- --------------------------------------------------------
 
