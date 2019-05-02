@@ -8,3 +8,5 @@
 - On ne sait pas encore comment exploiter ce format
 
 - "aller plus loin" -> nouvelles fonctionnalités (ex: possibilité de faire les plans et de les exporter en 3d)
+
+- bien expliquer le but de l'application ET le déroulé précis
