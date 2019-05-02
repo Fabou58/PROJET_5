@@ -39,3 +39,13 @@ TACHES PREVISIONNELLES:
 		- Tester et débugger								8 séances
 	• Rapport:										4 séances
 		- Rédiger rapport semestre 6							4 séances
+
+TACHES PREVISIONNELLES:
+	• Developpement:									23 séances
+		- Créer fonctionnalités BabylonJS						6 séances
+		- Créer et gérér site WordPress							9 séances
+		- Créer fonctionnalités PHP							8 séances
+	• Tests:										8 séances
+		- Tester et débugger								8 séances
+	• Rapport:										4 séances
+		- Rédiger rapport semestre 6							4 séances
